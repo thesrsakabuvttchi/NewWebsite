@@ -12,9 +12,9 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
   Dynamic and innovative Computer Engineering Master’s student with a robust foundation in hardware-oriented machine learning, 
   developed through extensive academic projects using C, C++, and Verilog. Proficient in deploying sophisticated software solutions 
   in professional settings, utilizing Python and JavaScript to enhance system functionalities and user experiences. My time at Zoom Video 
-  Communications helped me develop good oral and written communication skills since my job required communication with teams and customers
+  Communications helped me develop good oral and written communication with teams and customers
   from diverse technical (or non-technical) and cultural backgrounds. Eager to apply my technical expertise and communication prowess in a 
-  challenging role in the semiconductor industry that builds cutting edge for machine learning.
+  challenging role in the semiconductor industry that builds cutting edge solutions for machine learning.
   </div>
 
   <div class="mb-5">
@@ -57,13 +57,95 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
       subtitle="From May to October Chennai, India"
     >
     <ul class="list-disc" style="padding-left: 15px;">
-      <li>Engineered a cloud-based microservices architecture to deliver text summarization results from a pre-trained <b>LLM</b> using <b>FastAPI, Docker and RabbitMQ</b> demonstrating capabilities in modern software development and deployment.
+      <li>Engineered a cloud-based microservices architecture to deliver text summarization results from a pre-trained <b>LLM</b> (Big Bird model) optimized for text summarization using <b>FastAPI, Docker and RabbitMQ</b> demonstrating capabilities in modern software development and deployment.
       <li><b>Designed and Automated</b> report generation to <b>optimize</b> the process using the <b>Pandas and MongoDB aggregations</b>, significantly
          improving efficeincy and accuraccy while saving between 1 to 2 man-hours a day.</li>
-    </ul>    </TimeLineElement>
+    </ul>    
+  </TimeLineElement>
   </div>
 
   <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Projects</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="<a href='https://github.com/thesrsakabuvttchi/RCA-Sim' target='_blank'>RCA-Sim</a>"
+      subtitle="C++, Python, Systolic Arrays"
+    >
+      <ul class="list-disc" style="padding-left: 15px;">
+        <li>Developed a cycle-accurate systolic array simulator for neural network workloads in C++.</li>
+        <li>Enhanced configurability of systolic array parameters and P-Unit designs for approximate computing research.</li>
+        <li>Validated deep neural network architectures, showing accuracy impact of approximate computation from 0.9% to 17%.</li>
+      </ul>
+    </TimeLineElement>
+  
+    <TimeLineElement
+      title="<a href='https://github.com/thesrsakabuvttchi/VLIW' target='_blank'>VLIW Processor</a>"
+      subtitle="Verilog, Python"
+    >
+      <ul class="list-disc" style="padding-left: 15px;">
+        <li>Engineered a VLIW processor with a Python instruction scheduler, achieving a 6X best-case speedup.</li>
+        <li>Optimized a three-stage pipelined ALU, achieving a 25X speedup for floating-point multiplication in benchmarks.</li>
+      </ul>
+    </TimeLineElement>
+  
+    <TimeLineElement
+      title="<a href='https://github.com/thesrsakabuvttchi/ConditionalConstantFoldLLVM' target='_blank'>Conditional Constant Folding in LLVM</a>"
+      subtitle="LLVM (C++)"
+    >
+      <ul class="list-disc" style="padding-left: 15px;">
+        <li>Developed an LLVM pass for Conditional Constant Folding, enhancing runtime efficiency of applications by 15%.</li>
+      </ul>
+    </TimeLineElement>
+  
+    <TimeLineElement
+      title="<a href='https://github.com/thesrsakabuvttchi/CA/tree/main/Lab4' target='_blank'>Verilog Cache Simulation</a>"
+      subtitle="Verilog"
+    >
+      <ul class="list-disc" style="padding-left: 15px;">
+        <li>Simulated direct-mapped cache memory operations to improve system performance and efficiency in Verilog.</li>
+      </ul>
+    </TimeLineElement>
+  
+    <TimeLineElement
+      title="<a href='https://github.com/thesrsakabuvttchi/Huffman-Encoding' target='_blank'>Huffman Encoding</a>"
+      subtitle="C, Unix Sockets"
+    >
+      <ul class="list-disc" style="padding-left: 15px;">
+        <li>Developed a server-client communication system with Unix sockets and Huffman Encoding for efficient data compression.</li>
+        <li>Implemented real-time encoding/decoding to optimize communication in hardware-software interfaces.</li>
+      </ul>
+    </TimeLineElement>
+  </div>
+  
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>C</li>
+    <li>C++</li>
+    <li>Performance Engineering</li>
+    <li>LLVM Compiler Infrastructure</li>
+    <li>Python</li>
+    <li>Verilog</li>
+    <li>Logisim</li>
+    <li>Embedded Systems</li>
+    <li>JavaScript</li>
+    <li>PHP</li>
+    <li>SQL</li>
+    <li>Full Stack Development</li>
+    <li>ARM assembley</li>
+    <li>GEM5 Simulator</li>
+    <li>Docker</li>
+    <li>GNU Flex</li>
+    <li>Xilinx ISE</li>
+  </ul>
+
+  <br>
+
+  <!-- <div class="mb-5">
     <div class="text-3xl w-full font-bold">Certifications</div>
   </div>
 
@@ -74,27 +156,6 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
     <li>
       <a href="#" target="_blank"> Certification Name (with link)</a>
     </li>
-  </ul>
+  </ul> -->
 
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Skills</div>
-  </div>
-
-  <ul class="list-disc md:columns-5 columns-2 mx-6">
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-  </ul>
 </BaseLayout>
