@@ -36,3 +36,8 @@ The simulator is designed with scalability in mind, allowing for future expansio
 
 ### Conclusion
 RCA-Sim provides a robust and adaptable platform for evaluating custom systolic arrays in the context of neural network inference. Its ability to emulate hardware cycles accurately and support approximate computation research makes it an ideal tool for researchers aiming to balance performance and accuracy in next-generation NPUs.
+
+
+### Links
+- **Project Repository**: [RCA-Sim GitHub Repository](https://github.com/thesrsakabuvttchi/RCA-Sim)
+- **Introduction to Systolic Arrays**: [Systolic Arrays Overview (Wikipedia)](https://en.wikipedia.org/wiki/Systolic_array)
